@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11542"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FooterView">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="95"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FIK-JJ-Ked">
+                    <rect key="frame" x="0.0" y="0.0" width="95" height="95"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="750" constant="95" id="A2k-qE-lSP"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V7U-Ye-DM0">
+                    <rect key="frame" x="190" y="0.0" width="95" height="95"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="750" constant="95" id="pxQ-fB-EVZ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ddS-IL-h3x">
+                    <rect key="frame" x="285" y="0.0" width="95" height="95"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="750" constant="95" id="jff-ox-cC2"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2eU-vL-PYQ">
+                    <rect key="frame" x="95" y="0.0" width="95" height="95"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="750" constant="95" id="Oab-vB-hlu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="V7U-Ye-DM0" firstAttribute="leading" secondItem="2eU-vL-PYQ" secondAttribute="trailing" id="CWr-kQ-hk5"/>
+                <constraint firstItem="FIK-JJ-Ked" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Fc6-B3-OyU"/>
+                <constraint firstAttribute="bottom" secondItem="V7U-Ye-DM0" secondAttribute="bottom" id="IM5-x7-WsZ"/>
+                <constraint firstItem="V7U-Ye-DM0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="JtO-59-FKr"/>
+                <constraint firstItem="2eU-vL-PYQ" firstAttribute="width" secondItem="FIK-JJ-Ked" secondAttribute="width" id="Mr7-DI-GVd"/>
+                <constraint firstAttribute="bottom" secondItem="ddS-IL-h3x" secondAttribute="bottom" id="Nxx-L1-5kG"/>
+                <constraint firstAttribute="bottom" secondItem="2eU-vL-PYQ" secondAttribute="bottom" id="TFH-SQ-yeb"/>
+                <constraint firstAttribute="trailing" secondItem="ddS-IL-h3x" secondAttribute="trailing" id="Uff-Vo-meD"/>
+                <constraint firstItem="FIK-JJ-Ked" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XH9-Nj-Dlq"/>
+                <constraint firstItem="ddS-IL-h3x" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="YKD-O8-ACT"/>
+                <constraint firstItem="ddS-IL-h3x" firstAttribute="width" secondItem="FIK-JJ-Ked" secondAttribute="width" id="epg-ze-DAD"/>
+                <constraint firstItem="2eU-vL-PYQ" firstAttribute="leading" secondItem="FIK-JJ-Ked" secondAttribute="trailing" id="kEu-i4-aqn"/>
+                <constraint firstAttribute="bottom" secondItem="FIK-JJ-Ked" secondAttribute="bottom" id="lV4-0c-NLO"/>
+                <constraint firstItem="2eU-vL-PYQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lcm-M8-ZZ9"/>
+                <constraint firstItem="ddS-IL-h3x" firstAttribute="leading" secondItem="V7U-Ye-DM0" secondAttribute="trailing" id="xty-zj-5vu"/>
+                <constraint firstItem="V7U-Ye-DM0" firstAttribute="width" secondItem="FIK-JJ-Ked" secondAttribute="width" id="zgv-d6-OZO"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

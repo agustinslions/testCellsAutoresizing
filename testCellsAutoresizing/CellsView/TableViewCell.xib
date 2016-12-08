@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="tableViewIdentifier" rowHeight="147" id="jCr-I5-5NM" customClass="TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="147"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jCr-I5-5NM" id="1y7-21-ffO">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="146"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U51-wG-iyT">
+                        <rect key="frame" x="0.0" y="100" width="375" height="46"/>
+                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <view contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u9H-W0-n7k">
+                        <rect key="frame" x="0.0" y="46" width="375" height="54"/>
+                        <color key="backgroundColor" red="1" green="0.23705773660000001" blue="0.18157021070000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vY3-f3-twK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="U51-wG-iyT" secondAttribute="trailing" id="1om-h6-LO8"/>
+                    <constraint firstItem="vY3-f3-twK" firstAttribute="leading" secondItem="1y7-21-ffO" secondAttribute="leading" id="1p9-hF-atK"/>
+                    <constraint firstAttribute="trailing" secondItem="u9H-W0-n7k" secondAttribute="trailing" id="5Sr-x1-u5S"/>
+                    <constraint firstItem="vY3-f3-twK" firstAttribute="top" secondItem="1y7-21-ffO" secondAttribute="top" id="7VJ-YH-R91"/>
+                    <constraint firstAttribute="bottom" secondItem="U51-wG-iyT" secondAttribute="bottom" id="7i0-Km-P8E"/>
+                    <constraint firstItem="U51-wG-iyT" firstAttribute="leading" secondItem="1y7-21-ffO" secondAttribute="leading" id="Vlx-3U-4En"/>
+                    <constraint firstItem="U51-wG-iyT" firstAttribute="top" secondItem="u9H-W0-n7k" secondAttribute="bottom" id="W7Z-4d-RkA"/>
+                    <constraint firstAttribute="trailing" secondItem="vY3-f3-twK" secondAttribute="trailing" id="fcr-C9-GR7"/>
+                    <constraint firstItem="u9H-W0-n7k" firstAttribute="top" secondItem="vY3-f3-twK" secondAttribute="bottom" id="g9j-ZM-j1L"/>
+                    <constraint firstItem="u9H-W0-n7k" firstAttribute="leading" secondItem="1y7-21-ffO" secondAttribute="leading" id="ite-HG-qDl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="sectionFooter" destination="U51-wG-iyT" id="oaU-jA-CXV"/>
+                <outlet property="sectionHeader" destination="vY3-f3-twK" id="mgX-C7-GLM"/>
+                <outlet property="sectionMiddle" destination="u9H-W0-n7k" id="Cyq-Ts-K5l"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
