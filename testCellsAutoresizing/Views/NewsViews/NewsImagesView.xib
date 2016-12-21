@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NewsImagesView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZY1-r0-w81">
+                    <rect key="frame" x="8" y="8" width="361" height="134"/>
+                    <color key="backgroundColor" red="0.90588235289999997" green="0.10980392160000001" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="134" id="wk5-O1-eXt"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ZY1-r0-w81" secondAttribute="trailing" constant="6" id="5D2-Bs-lbI"/>
+                <constraint firstItem="ZY1-r0-w81" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="9gh-Th-0U9"/>
+                <constraint firstAttribute="bottom" secondItem="ZY1-r0-w81" secondAttribute="bottom" constant="8" id="RQX-C3-0va"/>
+                <constraint firstItem="ZY1-r0-w81" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="gdd-Ji-QRE"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="photoView" destination="ZY1-r0-w81" id="YqT-xJ-8Jv"/>
+            </connections>
+            <point key="canvasLocation" x="35.5" y="131"/>
+        </view>
+    </objects>
+</document>

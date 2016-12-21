@@ -12,4 +12,6 @@
 
 @property (nonatomic, weak) IBOutlet UILabel *label;
 
+- (void)setLabelText:(NSString *)text;
+
 @end

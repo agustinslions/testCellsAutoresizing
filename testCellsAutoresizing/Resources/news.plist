@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>description</key>
+		<string>Gerardo Molina, CEO de Euromericas Sport Marketing, asegura que Wilmar Valdez e Ignacio Alonso se comprometieron a llevar adelante la negociacion por la rescision con Tenfield. 
+La empresa que quiere comprar los derechos quiere un cambio total del futbol uruguayo.
+</string>
+		<key>logo</key>
+		<string>elpais</string>
+		<key>title</key>
+		<string>La AUF negociar con Tenfield</string>
+		<key>likes</key>
+		<integer>120</integer>
+		<key>date</key>
+		<date>2016-12-19T22:27:31Z</date>
+		<key>comments</key>
+		<integer>33</integer>
+		<key>views</key>
+		<integer>4234</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Uno de los jugadores mas importantes en la historia del equipo parisino, elogio al &quot;Matador&quot;, que esta cerca de pasar a Pauleta entre los goleadores historicos del club, y aseguro que &quot;es un delantero excepcional; debe ser mas egoista&quot;.</string>
+		<key>logo</key>
+		<string>elpais</string>
+		<key>title</key>
+		<string>&quot;Si le sacas a Cavani, PSG estaria a mitad de tabla&quot;</string>
+		<key>likes</key>
+		<integer>23</integer>
+		<key>date</key>
+		<date>2016-12-15T22:27:31Z</date>
+		<key>comments</key>
+		<integer>12</integer>
+		<key>views</key>
+		<integer>3200</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>El Chapecoense recibira la copa de campeon de la Sudamericana en el sorteo de la Copa Libertadores, que se realizara este miercoles en Asuncion.</string>
+		<key>logo</key>
+		<string>elpais</string>
+		<key>title</key>
+		<string>Chapecoense recibe la copa mañana</string>
+		<key>likes</key>
+		<integer>32</integer>
+		<key>date</key>
+		<date>2016-12-14T22:27:31Z</date>
+		<key>comments</key>
+		<integer>34</integer>
+		<key>views</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Nacional, Peñarol, Cerro y Wanderers veran su suerte manana en Asuncion, en el sorteo de la Copa Libertadores 2017. Mira los posibles rivales de cada uno de los equipos.</string>
+		<key>logo</key>
+		<string>elpais</string>
+		<key>title</key>
+		<string>Los grandes cabezas de serie?</string>
+		<key>likes</key>
+		<integer>2</integer>
+		<key>date</key>
+		<date>2016-12-10T22:27:31Z</date>
+		<key>comments</key>
+		<integer>23</integer>
+		<key>views</key>
+		<integer>4324</integer>
+	</dict>
+</array>
+</plist>
