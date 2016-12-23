@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1184FFAA1E0D79DE00F5B7A0 /* ASDKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1184FFA91E0D79DE00F5B7A0 /* ASDKViewController.m */; };
+		1184FFAD1E0D7B1F00F5B7A0 /* GenericASDKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1184FFAC1E0D7B1F00F5B7A0 /* GenericASDKTableViewController.m */; };
 		41B459981DFCB3D700A8C809 /* news.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41B459971DFCB3D700A8C809 /* news.plist */; };
 		41B4599A1DFCB72D00A8C809 /* newsDynamic.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41B459991DFCB72D00A8C809 /* newsDynamic.plist */; };
 		41B4599C1DFCBB4B00A8C809 /* teams.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41B4599B1DFCBB4B00A8C809 /* teams.plist */; };
@@ -63,6 +65,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1184FFA81E0D79DE00F5B7A0 /* ASDKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDKViewController.h; sourceTree = "<group>"; };
+		1184FFA91E0D79DE00F5B7A0 /* ASDKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDKViewController.m; sourceTree = "<group>"; };
+		1184FFAB1E0D7B1F00F5B7A0 /* GenericASDKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericASDKTableViewController.h; sourceTree = "<group>"; };
+		1184FFAC1E0D7B1F00F5B7A0 /* GenericASDKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericASDKTableViewController.m; sourceTree = "<group>"; };
 		41B459971DFCB3D700A8C809 /* news.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = news.plist; sourceTree = "<group>"; };
 		41B459991DFCB72D00A8C809 /* newsDynamic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = newsDynamic.plist; sourceTree = "<group>"; };
 		41B4599B1DFCBB4B00A8C809 /* teams.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = teams.plist; sourceTree = "<group>"; };
@@ -337,6 +343,10 @@
 				41B459B01DFCBD5100A8C809 /* NewsDynamicViewController.m */,
 				41B459B21DFCBD5900A8C809 /* TeamsViewController.h */,
 				41B459B31DFCBD5900A8C809 /* TeamsViewController.m */,
+				1184FFA81E0D79DE00F5B7A0 /* ASDKViewController.h */,
+				1184FFA91E0D79DE00F5B7A0 /* ASDKViewController.m */,
+				1184FFAB1E0D7B1F00F5B7A0 /* GenericASDKTableViewController.h */,
+				1184FFAC1E0D7B1F00F5B7A0 /* GenericASDKTableViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -469,7 +479,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		87EE0E0F6E5F8D7A92E435B3 /* [CP] Embed Pods Frameworks */ = {
@@ -513,6 +523,7 @@
 				41B459D91DFD86BD00A8C809 /* NewsImagesView.m in Sources */,
 				41B459E61DFD8AA300A8C809 /* TeamHeaderView.m in Sources */,
 				41B459EF1DFD8AE100A8C809 /* UserView.m in Sources */,
+				1184FFAD1E0D7B1F00F5B7A0 /* GenericASDKTableViewController.m in Sources */,
 				54AD24961DF9EBB4007C930B /* HeaderView.m in Sources */,
 				41B459FA1DFD8DD100A8C809 /* NewsTableViewCell.m in Sources */,
 				41B459C01DFD17DA00A8C809 /* ContentView.m in Sources */,
@@ -525,6 +536,7 @@
 				41B459AB1DFCBD3800A8C809 /* GenericTableViewController.m in Sources */,
 				41B459A21DFCBCD900A8C809 /* User.m in Sources */,
 				41B459C61DFD19AF00A8C809 /* NewsViews.m in Sources */,
+				1184FFAA1E0D79DE00F5B7A0 /* ASDKViewController.m in Sources */,
 				54AD24921DF9EBB4007C930B /* CenterView.m in Sources */,
 				41B459CA1DFD271E00A8C809 /* TeamView.m in Sources */,
 				41B459AE1DFCBD4500A8C809 /* NewsViewController.m in Sources */,
@@ -661,6 +673,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5TE3G4UK44;
 				INFOPLIST_FILE = testCellsAutoresizing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pedidosya.testCellsAutoresizing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -676,6 +689,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5TE3G4UK44;
 				INFOPLIST_FILE = testCellsAutoresizing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pedidosya.testCellsAutoresizing;
 				PRODUCT_NAME = "$(TARGET_NAME)";

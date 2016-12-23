@@ -8,5 +8,6 @@ target 'testCellsAutoresizing' do
   # Pods for testCellsAutoresizing
 
   pod 'Masonry'
+  pod 'AsyncDisplayKit'
 
 end
