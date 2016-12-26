@@ -26,9 +26,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.textCellsArray = @[@"Simple Example", @"Simple News example", @"Dynamic News Example", @"Team Example", @"AsyncDisplayKit Example"];
+    self.textCellsArray = @[@"Simple Example", @"Simple News example", @"Dynamic News Example", @"Team Example", @"Restaurants Example"];
     
-    self.segueArray = @[@"simpleExampleSegueIdentifier", @"newsSegueIdentifier", @"newsDynamicSegueIdentifier", @"teamSegueIdentifier", @"asdkSegueIdentifier"];
+    self.segueArray = @[@"simpleExampleSegueIdentifier", @"newsSegueIdentifier", @"newsDynamicSegueIdentifier", @"teamSegueIdentifier", @"restaurantsSegueIdentifier"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -73,5 +73,6 @@
     [self performSegueWithIdentifier:self.segueArray[indexPath.row] sender:nil];
 
 }
+
 
 @end

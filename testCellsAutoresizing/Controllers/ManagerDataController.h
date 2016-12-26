@@ -18,4 +18,6 @@
 
 - (NSMutableArray *)loadTeams;
 
+- (NSMutableArray *)loadRestaurants;
+
 @end

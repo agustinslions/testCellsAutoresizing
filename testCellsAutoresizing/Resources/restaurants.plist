@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>The Factory Salad and Juice</string>
+		<key>restaurantDescription</key>
+		<string>Ensaladas ricas con ingredientes frescos.</string>
+		<key>imageURL</key>
+		<string>https://img.pystatic.com/restaurants/the-factory-new.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>El Mercadito del Puerto</string>
+		<key>restaurantDescription</key>
+		<string>El mejor asado del uruguay. Las mejores achuras, acompañamientos y ensaladas.</string>
+		<key>imageURL</key>
+		<string>https://img.pystatic.com/restaurants/el-mercadito-del-puerto.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>25 Restó</string>
+		<key>restaurantDescription</key>
+		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ma.</string>
+		<key>imageURL</key>
+		<string>https://img.pystatic.com/restaurants/25-resto.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>El Emporio de los Sandwiches</string>
+		<key>restaurantDescription</key>
+		<string>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+		<key>imageURL</key>
+		<string>https://img.pystatic.com/restaurants/emporio-de-los-sandwiches.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Porto Vanila Ciudad Vieja</string>
+		<key>restaurantDescription</key>
+		<string>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+		<key>imageURL</key>
+		<string>https://img.pystatic.com/restaurants/portovanila.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bar Madison</string>
+		<key>restaurantDescription</key>
+		<string>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+		<key>imageURL</key>
+		<string>https://img.pystatic.com/restaurants/bar-madison.jpg</string>
+	</dict>
+    <dict>
+        <key>name</key>
+        <string>Il Mondo Convención</string>
+        <key>restaurantDescription</key>
+        <string>Ensaladas ricas con ingredientes frescos.</string>
+        <key>imageURL</key>
+        <string>https://img.pystatic.com/restaurants/nuevo-ilmondo.jpg</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Grido Aguada</string>
+        <key>restaurantDescription</key>
+        <string>El mejor asado del uruguay. Las mejores achuras, acompañamientos y ensaladas.</string>
+        <key>imageURL</key>
+        <string>https://img.pystatic.com/restaurants/grido.jpg</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Sabor Peruano Ciudad Vieja</string>
+        <key>restaurantDescription</key>
+        <string>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ma.</string>
+        <key>imageURL</key>
+        <string>https://img.pystatic.com/restaurants/sabor-peruano-peque.jpg</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Subway Plaza Independencia</string>
+        <key>restaurantDescription</key>
+        <string>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+        <key>imageURL</key>
+        <string>https://img.pystatic.com/restaurants/subwayoficialuy2.jpg</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Panteca Gourmet Rincón</string>
+        <key>restaurantDescription</key>
+        <string>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+        <key>imageURL</key>
+        <string>https://img.pystatic.com/restaurants/panteca.jpg</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Empanadas Mafalda Centro</string>
+        <key>restaurantDescription</key>
+        <string>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+        <key>imageURL</key>
+        <string>https://img.pystatic.com/restaurants/nuevo-logo-mafalda.jpg</string>
+    </dict>
+</array>
+</plist>

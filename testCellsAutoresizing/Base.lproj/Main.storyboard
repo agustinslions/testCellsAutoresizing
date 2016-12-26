@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XXs-Bq-2Zf">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -51,7 +50,7 @@
                         <segue destination="lqT-H5-uO5" kind="show" identifier="newsSegueIdentifier" id="rj1-GH-0xS"/>
                         <segue destination="rVh-eM-e7l" kind="show" identifier="simpleExampleSegueIdentifier" id="mEm-m0-f9T"/>
                         <segue destination="qls-20-XXM" kind="show" identifier="newsDynamicSegueIdentifier" id="aAc-fY-tvg"/>
-                        <segue destination="dud-EV-Aws" kind="show" identifier="asdkSegueIdentifier" id="ea3-W0-9ul"/>
+                        <segue destination="dud-EV-Aws" kind="show" identifier="restaurantsSegueIdentifier" id="ea3-W0-9ul"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -220,10 +219,10 @@
             </objects>
             <point key="canvasLocation" x="2692" y="-453"/>
         </scene>
-        <!--View Controller-->
+        <!--Restaurants View Controller-->
         <scene sceneID="pNu-aE-Zn1">
             <objects>
-                <viewController id="dud-EV-Aws" customClass="ASDKViewController" sceneMemberID="viewController">
+                <viewController id="dud-EV-Aws" customClass="RestaurantsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HeF-4w-EjU"/>
                         <viewControllerLayoutGuide type="bottom" id="GPl-fd-d9Y"/>
@@ -232,24 +231,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xgw-HH-Cyf">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="n6g-Xz-qrw">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <outlet property="dataSource" destination="dud-EV-Aws" id="Igw-DN-hRc"/>
-                                    <outlet property="delegate" destination="dud-EV-Aws" id="tHy-BT-lws"/>
+                                    <outlet property="dataSource" destination="dud-EV-Aws" id="ofF-FR-RmP"/>
+                                    <outlet property="delegate" destination="dud-EV-Aws" id="JH1-v1-qOI"/>
                                 </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="xgw-HH-Cyf" firstAttribute="leading" secondItem="t55-XQ-f86" secondAttribute="leading" id="Tqa-Hx-4at"/>
-                            <constraint firstItem="xgw-HH-Cyf" firstAttribute="top" secondItem="t55-XQ-f86" secondAttribute="top" id="Z8D-nj-2Q4"/>
-                            <constraint firstItem="GPl-fd-d9Y" firstAttribute="top" secondItem="xgw-HH-Cyf" secondAttribute="bottom" id="yjJ-Un-b2u"/>
-                            <constraint firstAttribute="trailing" secondItem="xgw-HH-Cyf" secondAttribute="trailing" id="zff-tH-xv5"/>
+                            <constraint firstItem="n6g-Xz-qrw" firstAttribute="top" secondItem="t55-XQ-f86" secondAttribute="top" id="02d-rH-Vnv"/>
+                            <constraint firstItem="n6g-Xz-qrw" firstAttribute="leading" secondItem="t55-XQ-f86" secondAttribute="leading" id="80U-1l-1fb"/>
+                            <constraint firstItem="GPl-fd-d9Y" firstAttribute="top" secondItem="n6g-Xz-qrw" secondAttribute="bottom" id="8dn-cs-Jd8"/>
+                            <constraint firstAttribute="trailing" secondItem="n6g-Xz-qrw" secondAttribute="trailing" id="yCX-Q9-WwU"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="tableView" destination="xgw-HH-Cyf" id="teI-zW-Yrh"/>
+                        <outlet property="tableView" destination="n6g-Xz-qrw" id="YMi-kJ-FOK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VZ9-SV-ZAQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
