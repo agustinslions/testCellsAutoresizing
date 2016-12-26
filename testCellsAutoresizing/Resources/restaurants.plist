@@ -4,99 +4,99 @@
 <array>
 	<dict>
 		<key>name</key>
-		<string>The Factory Salad and Juice</string>
+		<string>Diego Forlán</string>
 		<key>restaurantDescription</key>
-		<string>Ensaladas ricas con ingredientes frescos.</string>
+		<string>El mejor 10 de la celeste.</string>
 		<key>imageURL</key>
-		<string>https://img.pystatic.com/restaurants/the-factory-new.jpg</string>
+		<string>DF10</string>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>El Mercadito del Puerto</string>
+		<string>Luis Suarez</string>
 		<key>restaurantDescription</key>
-		<string>El mejor asado del uruguay. Las mejores achuras, acompañamientos y ensaladas.</string>
+		<string>El mejor centrodelantero del mundo.</string>
 		<key>imageURL</key>
-		<string>https://img.pystatic.com/restaurants/el-mercadito-del-puerto.jpg</string>
+		<string>LS9</string>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>25 Restó</string>
+		<string>Egidio Arevalo Rios</string>
 		<key>restaurantDescription</key>
 		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ma.</string>
 		<key>imageURL</key>
-		<string>https://img.pystatic.com/restaurants/25-resto.jpg</string>
+		<string>EA5</string>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>El Emporio de los Sandwiches</string>
+		<string>Richard Morales</string>
 		<key>restaurantDescription</key>
 		<string>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
 		<key>imageURL</key>
-		<string>https://img.pystatic.com/restaurants/emporio-de-los-sandwiches.jpg</string>
+		<string>RM20</string>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>Porto Vanila Ciudad Vieja</string>
+		<string>Paolo Montero</string>
 		<key>restaurantDescription</key>
 		<string>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
 		<key>imageURL</key>
-		<string>https://img.pystatic.com/restaurants/portovanila.jpg</string>
+		<string>PM4</string>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>Bar Madison</string>
+		<string>Diego Godin</string>
 		<key>restaurantDescription</key>
 		<string>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
 		<key>imageURL</key>
-		<string>https://img.pystatic.com/restaurants/bar-madison.jpg</string>
+		<string>DG3</string>
 	</dict>
-    <dict>
-        <key>name</key>
-        <string>Il Mondo Convención</string>
-        <key>restaurantDescription</key>
-        <string>Ensaladas ricas con ingredientes frescos.</string>
-        <key>imageURL</key>
-        <string>https://img.pystatic.com/restaurants/nuevo-ilmondo.jpg</string>
-    </dict>
-    <dict>
-        <key>name</key>
-        <string>Grido Aguada</string>
-        <key>restaurantDescription</key>
-        <string>El mejor asado del uruguay. Las mejores achuras, acompañamientos y ensaladas.</string>
-        <key>imageURL</key>
-        <string>https://img.pystatic.com/restaurants/grido.jpg</string>
-    </dict>
-    <dict>
-        <key>name</key>
-        <string>Sabor Peruano Ciudad Vieja</string>
-        <key>restaurantDescription</key>
-        <string>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ma.</string>
-        <key>imageURL</key>
-        <string>https://img.pystatic.com/restaurants/sabor-peruano-peque.jpg</string>
-    </dict>
-    <dict>
-        <key>name</key>
-        <string>Subway Plaza Independencia</string>
-        <key>restaurantDescription</key>
-        <string>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
-        <key>imageURL</key>
-        <string>https://img.pystatic.com/restaurants/subwayoficialuy2.jpg</string>
-    </dict>
-    <dict>
-        <key>name</key>
-        <string>Panteca Gourmet Rincón</string>
-        <key>restaurantDescription</key>
-        <string>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
-        <key>imageURL</key>
-        <string>https://img.pystatic.com/restaurants/panteca.jpg</string>
-    </dict>
-    <dict>
-        <key>name</key>
-        <string>Empanadas Mafalda Centro</string>
-        <key>restaurantDescription</key>
-        <string>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-        <key>imageURL</key>
-        <string>https://img.pystatic.com/restaurants/nuevo-logo-mafalda.jpg</string>
-    </dict>
+	<dict>
+		<key>name</key>
+		<string>Fernando Muslera</string>
+		<key>restaurantDescription</key>
+		<string>Gran arquero y mejor persona</string>
+		<key>imageURL</key>
+		<string>FM1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Cristian Rodriguez</string>
+		<key>restaurantDescription</key>
+		<string>El verdadero CR7. Mas conocido como el cebolla</string>
+		<key>imageURL</key>
+		<string>CR7</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Edinson Cavani</string>
+		<key>restaurantDescription</key>
+		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ma.</string>
+		<key>imageURL</key>
+		<string>EC7</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Carlos Sanchez</string>
+		<key>restaurantDescription</key>
+		<string>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+		<key>imageURL</key>
+		<string>CS17</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Alvaro Pereira</string>
+		<key>restaurantDescription</key>
+		<string>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+		<key>imageURL</key>
+		<string>AP6</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Diego Rolan</string>
+		<key>restaurantDescription</key>
+		<string>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+		<key>imageURL</key>
+		<string>DR21</string>
+	</dict>
 </array>
 </plist>
