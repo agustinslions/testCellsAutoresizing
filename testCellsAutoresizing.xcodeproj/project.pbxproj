@@ -57,6 +57,9 @@
 		41B45A011DFF8CCD00A8C809 /* TeamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41B459FF1DFF8CCD00A8C809 /* TeamTableViewCell.xib */; };
 		41B45A031E04592900A8C809 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B45A021E04592900A8C809 /* MediaPlayer.framework */; };
 		41B45A051E04593F00A8C809 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B45A041E04593F00A8C809 /* AVFoundation.framework */; };
+		41B45A0A1E120F5700A8C809 /* movieFunny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41B45A081E120F5700A8C809 /* movieFunny.mp4 */; };
+		41B45A0B1E120F5700A8C809 /* newMovieNetflix.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41B45A091E120F5700A8C809 /* newMovieNetflix.mp4 */; };
+		41B45A0D1E12179C00A8C809 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B45A0C1E12179C00A8C809 /* AVKit.framework */; };
 		54AD24551DF9EB0A007C930B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AD24541DF9EB0A007C930B /* main.m */; };
 		54AD24581DF9EB0A007C930B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AD24571DF9EB0A007C930B /* AppDelegate.m */; };
 		54AD245E1DF9EB0A007C930B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54AD245C1DF9EB0A007C930B /* Main.storyboard */; };
@@ -155,6 +158,9 @@
 		41B459FF1DFF8CCD00A8C809 /* TeamTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamTableViewCell.xib; sourceTree = "<group>"; };
 		41B45A021E04592900A8C809 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		41B45A041E04593F00A8C809 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		41B45A081E120F5700A8C809 /* movieFunny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movieFunny.mp4; sourceTree = "<group>"; };
+		41B45A091E120F5700A8C809 /* newMovieNetflix.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = newMovieNetflix.mp4; sourceTree = "<group>"; };
+		41B45A0C1E12179C00A8C809 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		54AD24501DF9EB0A007C930B /* testCellsAutoresizing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCellsAutoresizing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54AD24541DF9EB0A007C930B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		54AD24561DF9EB0A007C930B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -187,6 +193,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41B45A0D1E12179C00A8C809 /* AVKit.framework in Frameworks */,
 				41B45A051E04593F00A8C809 /* AVFoundation.framework in Frameworks */,
 				41B45A031E04592900A8C809 /* MediaPlayer.framework in Frameworks */,
 				BB7E08361241AB186BB19671 /* libPods-testCellsAutoresizing.a in Frameworks */,
@@ -199,6 +206,7 @@
 		04A8B0B07DB4A6B7C83B15E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				41B45A0C1E12179C00A8C809 /* AVKit.framework */,
 				41B45A041E04593F00A8C809 /* AVFoundation.framework */,
 				41B45A021E04592900A8C809 /* MediaPlayer.framework */,
 				A402D8D7590937B0E06D7FBD /* libPods-testCellsAutoresizing.a */,
@@ -349,6 +357,8 @@
 		54AD24531DF9EB0A007C930B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				41B45A081E120F5700A8C809 /* movieFunny.mp4 */,
+				41B45A091E120F5700A8C809 /* newMovieNetflix.mp4 */,
 				54AD245C1DF9EB0A007C930B /* Main.storyboard */,
 				54AD245F1DF9EB0A007C930B /* Assets.xcassets */,
 				54AD24611DF9EB0A007C930B /* LaunchScreen.storyboard */,
@@ -495,10 +505,12 @@
 				41B459981DFCB3D700A8C809 /* news.plist in Resources */,
 				54AD24951DF9EBB4007C930B /* FooterView.xib in Resources */,
 				54AD24901DF9EBB4007C930B /* TableViewCell.xib in Resources */,
+				41B45A0B1E120F5700A8C809 /* newMovieNetflix.mp4 in Resources */,
 				41B459DD1DFD86D400A8C809 /* NewsVideosView.xib in Resources */,
 				41B459E31DFD86F200A8C809 /* NewsHeaderView.xib in Resources */,
 				41B459F31DFD8AF400A8C809 /* TeamFooterView.xib in Resources */,
 				116B4CAE1E1151AA002B202B /* restaurants.plist in Resources */,
+				41B45A0A1E120F5700A8C809 /* movieFunny.mp4 in Resources */,
 				41B4599A1DFCB72D00A8C809 /* newsDynamic.plist in Resources */,
 				41B4599C1DFCBB4B00A8C809 /* teams.plist in Resources */,
 				54AD24601DF9EB0A007C930B /* Assets.xcassets in Resources */,

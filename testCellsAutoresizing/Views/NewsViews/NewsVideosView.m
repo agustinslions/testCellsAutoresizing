@@ -20,22 +20,49 @@
 
 - (void)setVideoPhoto:(News *)news
 {
-    self.videoPhotoImageView.image = [NewsVideosView thumbnailFromVideoAtURL:[NSURL fileURLWithPath:news.urlNews]];
+    NSURL *urlString = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:news.urlNews ofType:@"mp4"]];
+
+    [NewsVideosView thumbnailImageForVideoURL:urlString completionHandler:^(UIImage *thumbImage) {
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            
+            self.videoPhotoImageView.image = thumbImage;
+            //self.objectDetail.videoThumbImage = UIImageJPEGRepresentation(thumbImage, 1.0);
+        });
+        
+    }];
 }
 
-+ (UIImage *)thumbnailFromVideoAtURL:(NSURL *)contentURL
-{
-    UIImage *theImage = nil;
-    AVURLAsset *asset = [[AVURLAsset alloc] initWithURL:contentURL options:nil];
-    AVAssetImageGenerator *generato = [[AVAssetImageGenerator alloc] initWithAsset:asset];
-    generato.appliesPreferredTrackTransform = YES;
-    NSError *error = NULL;
-    CMTime time = CMTimeMake(1, 60);
-    CGImageRef imgRef = [generato copyCGImageAtTime:time actualTime:NULL error:&error];
++(void)thumbnailImageForVideoURL:(NSURL *)videoURL completionHandler:(void (^)(UIImage *))completionHandler{
     
-    theImage = [[UIImage alloc] initWithCGImage:imgRef];
-    
-    return theImage;
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
+        
+        AVURLAsset *asset=[[AVURLAsset alloc] initWithURL:videoURL options:nil];
+        AVAssetImageGenerator *generator = [[AVAssetImageGenerator alloc] initWithAsset:asset];
+        generator.appliesPreferredTrackTransform=TRUE;
+        
+        CMTime thumbTime = CMTimeMakeWithSeconds(30,30);
+        
+        AVAssetImageGeneratorCompletionHandler handler = ^(CMTime requestedTime, CGImageRef im, CMTime actualTime, AVAssetImageGeneratorResult result, NSError *error){
+            
+            if (result != AVAssetImageGeneratorSucceeded) {
+                NSLog(@"couldn't generate thumbnail, error:%@", error);
+            }
+            
+            UIImage *image;
+            if(im){
+                image = [UIImage imageWithCGImage:im];
+                
+            }else{
+                image = [UIImage imageNamed:@"videoPlaceholder"];
+            }
+            completionHandler(image);
+        };
+        
+        CGSize maxSize = CGSizeMake(568, 426);
+        generator.maximumSize = maxSize;
+        [generator generateCGImagesAsynchronouslyForTimes:[NSArray arrayWithObject:[NSValue valueWithCMTime:thumbTime]] completionHandler:handler];
+    });
 }
 
 @end

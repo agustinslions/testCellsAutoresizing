@@ -32,7 +32,7 @@
 		<key>typeNews</key>
 		<integer>1</integer>
 		<key>urlNews</key>
-		<string></string>
+		<string>simpsonsMovie</string>
 		<key>likes</key>
 		<integer>32</integer>
 		<key>views</key>

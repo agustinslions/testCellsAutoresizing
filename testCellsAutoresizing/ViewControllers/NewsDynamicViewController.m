@@ -9,6 +9,8 @@
 #import "NewsDynamicViewController.h"
 #import "NewsViews.h"
 #import "NewsTableViewCell.h"
+#import <AVKit/AVKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface NewsDynamicViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -70,4 +72,21 @@ static NSString *kNewsTableCellIdentifier = @"newsTableCellIdentifier";
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    News *news = self.objectsArray[indexPath.row];
+    
+    if (news.newsType == NewsVideo) {
+
+        //Show a movie
+        NSURL *movieURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:news.urlNews ofType:@"mp4"]];
+
+        AVPlayerViewController * filePlayerViewController = [AVPlayerViewController alloc];
+        filePlayerViewController.showsPlaybackControls = true;
+        AVPlayer *filePlayer = [AVPlayer playerWithURL:movieURL];
+        filePlayerViewController.player = filePlayer;
+        [filePlayer play];
+        [self presentViewController:filePlayerViewController animated:YES completion:nil];
+    }
+}
 @end

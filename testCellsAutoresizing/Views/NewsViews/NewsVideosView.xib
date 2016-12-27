@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,14 +11,14 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NewsVideosView">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="176"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cXO-84-LJL">
-                    <rect key="frame" x="8" y="8" width="359" height="134"/>
-                    <color key="backgroundColor" red="0.74509803919999995" green="0.84705882349999995" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cXO-84-LJL">
+                    <rect key="frame" x="8" y="8" width="359" height="160"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="134" id="wrL-gI-Cvr"/>
+                        <constraint firstAttribute="height" constant="160" id="wrL-gI-Cvr"/>
                     </constraints>
                 </imageView>
             </subviews>
@@ -37,7 +36,7 @@
             <connections>
                 <outlet property="videoPhotoImageView" destination="cXO-84-LJL" id="BA0-pY-I9Y"/>
             </connections>
-            <point key="canvasLocation" x="35.5" y="105"/>
+            <point key="canvasLocation" x="35.5" y="117.5"/>
         </view>
     </objects>
 </document>
