@@ -29,11 +29,11 @@
         Creation of Content Body
      */
     
-    //if (!self.centerView) {
-    //    self.centerView = [TeamUsersView new];
-    //}
+    if (!self.centerView) {
+        self.centerView = [TeamUsersView new];
+    }
     
-    //[(TeamUsersView *)self.centerView setupUsersViews:team.users];
+    [(TeamUsersView *)self.centerView setupUsersViews:team.users];
         
     /*
         Creation of Footer
