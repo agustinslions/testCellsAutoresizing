@@ -8,5 +8,7 @@ target 'testCellsAutoresizing' do
   # Pods for testCellsAutoresizing
 
   pod 'Masonry'
+  pod 'SDWebImage'
+  
 
 end

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="restaurantTableCellIdentifier" rowHeight="193" id="5B0-l0-M8i" customClass="RestaurantTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5B0-l0-M8i" id="Gcs-Fo-F0P">
+                <frame key="frameInset" width="375" height="399"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7QL-7X-xmb">
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="7QL-7X-xmb" secondAttribute="bottom" id="C5V-sx-Sn9"/>
+                    <constraint firstAttribute="trailing" secondItem="7QL-7X-xmb" secondAttribute="trailing" id="QpA-DO-wb7"/>
+                    <constraint firstItem="7QL-7X-xmb" firstAttribute="top" secondItem="Gcs-Fo-F0P" secondAttribute="top" id="j5m-25-Lzu"/>
+                    <constraint firstItem="7QL-7X-xmb" firstAttribute="leading" secondItem="Gcs-Fo-F0P" secondAttribute="leading" id="q5K-0y-Ynt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentCellView" destination="7QL-7X-xmb" id="e2N-1N-N0v"/>
+            </connections>
+            <point key="canvasLocation" x="-178" y="-23"/>
+        </tableViewCell>
+    </objects>
+</document>

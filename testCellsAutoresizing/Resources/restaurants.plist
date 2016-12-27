@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Diego Forlán</string>
+		<key>restaurantDescription</key>
+		<string>El mejor 10 de la celeste.</string>
+		<key>imageURL</key>
+		<string>DF10</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Luis Suarez</string>
+		<key>restaurantDescription</key>
+		<string>El mejor centrodelantero del mundo.</string>
+		<key>imageURL</key>
+		<string>LS9</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Egidio Arevalo Rios</string>
+		<key>restaurantDescription</key>
+		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ma.</string>
+		<key>imageURL</key>
+		<string>EA5</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Richard Morales</string>
+		<key>restaurantDescription</key>
+		<string>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+		<key>imageURL</key>
+		<string>RM20</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Paolo Montero</string>
+		<key>restaurantDescription</key>
+		<string>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+		<key>imageURL</key>
+		<string>PM4</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Diego Godin</string>
+		<key>restaurantDescription</key>
+		<string>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+		<key>imageURL</key>
+		<string>DG3</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Fernando Muslera</string>
+		<key>restaurantDescription</key>
+		<string>Gran arquero y mejor persona</string>
+		<key>imageURL</key>
+		<string>FM1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Cristian Rodriguez</string>
+		<key>restaurantDescription</key>
+		<string>El verdadero CR7. Mas conocido como el cebolla</string>
+		<key>imageURL</key>
+		<string>CR7</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Edinson Cavani</string>
+		<key>restaurantDescription</key>
+		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ma.</string>
+		<key>imageURL</key>
+		<string>EC7</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Carlos Sanchez</string>
+		<key>restaurantDescription</key>
+		<string>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+		<key>imageURL</key>
+		<string>CS17</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Alvaro Pereira</string>
+		<key>restaurantDescription</key>
+		<string>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+		<key>imageURL</key>
+		<string>AP6</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Diego Rolan</string>
+		<key>restaurantDescription</key>
+		<string>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+		<key>imageURL</key>
+		<string>DR21</string>
+	</dict>
+</array>
+</plist>
