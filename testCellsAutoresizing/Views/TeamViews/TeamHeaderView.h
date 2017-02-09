@@ -13,4 +13,6 @@
 
 - (void)setTeamHeader:(Team *)team;
 
++ (UIView *)initClassFromNib;
+
 @end

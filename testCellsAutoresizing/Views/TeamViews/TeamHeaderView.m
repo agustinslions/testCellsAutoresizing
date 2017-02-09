@@ -18,6 +18,12 @@
 
 @implementation TeamHeaderView
 
++ (UIView *)initClassFromNib
+{
+    TeamHeaderView *headerView = (TeamHeaderView *)[[NSBundle mainBundle] loadNibNamed:@"TeamHeaderView" owner:nil options:nil][0];
+    return headerView;
+}
+
 - (void)setTeamHeader:(Team *)team
 {
     self.nameLabel.text = team.name;

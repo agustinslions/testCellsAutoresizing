@@ -60,6 +60,7 @@
 		41B45A0A1E120F5700A8C809 /* movieFunny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41B45A081E120F5700A8C809 /* movieFunny.mp4 */; };
 		41B45A0B1E120F5700A8C809 /* newMovieNetflix.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41B45A091E120F5700A8C809 /* newMovieNetflix.mp4 */; };
 		41B45A0D1E12179C00A8C809 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B45A0C1E12179C00A8C809 /* AVKit.framework */; };
+		41BA6B5F1E4D1926007A2D68 /* MultipleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BA6B5E1E4D1926007A2D68 /* MultipleContentView.m */; };
 		54AD24551DF9EB0A007C930B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AD24541DF9EB0A007C930B /* main.m */; };
 		54AD24581DF9EB0A007C930B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AD24571DF9EB0A007C930B /* AppDelegate.m */; };
 		54AD245E1DF9EB0A007C930B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54AD245C1DF9EB0A007C930B /* Main.storyboard */; };
@@ -161,6 +162,8 @@
 		41B45A081E120F5700A8C809 /* movieFunny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movieFunny.mp4; sourceTree = "<group>"; };
 		41B45A091E120F5700A8C809 /* newMovieNetflix.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = newMovieNetflix.mp4; sourceTree = "<group>"; };
 		41B45A0C1E12179C00A8C809 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		41BA6B5D1E4D1926007A2D68 /* MultipleContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleContentView.h; sourceTree = "<group>"; };
+		41BA6B5E1E4D1926007A2D68 /* MultipleContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleContentView.m; sourceTree = "<group>"; };
 		54AD24501DF9EB0A007C930B /* testCellsAutoresizing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCellsAutoresizing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54AD24541DF9EB0A007C930B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		54AD24561DF9EB0A007C930B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -272,6 +275,8 @@
 			children = (
 				41B459BE1DFD17DA00A8C809 /* ContentView.h */,
 				41B459BF1DFD17DA00A8C809 /* ContentView.m */,
+				41BA6B5D1E4D1926007A2D68 /* MultipleContentView.h */,
+				41BA6B5E1E4D1926007A2D68 /* MultipleContentView.m */,
 			);
 			path = ContentView;
 			sourceTree = "<group>";
@@ -584,6 +589,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BA6B5F1E4D1926007A2D68 /* MultipleContentView.m in Sources */,
 				41B459A51DFCBCE200A8C809 /* Team.m in Sources */,
 				41B459D91DFD86BD00A8C809 /* NewsImagesView.m in Sources */,
 				41B459E61DFD8AA300A8C809 /* TeamHeaderView.m in Sources */,

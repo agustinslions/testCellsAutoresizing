@@ -9,6 +9,7 @@
 #import "TeamsViewController.h"
 #import "TeamView.h"
 #import "TeamTableViewCell.h"
+#import "TeamHeaderView.h"
 
 @interface TeamsViewController ()
 
@@ -63,6 +64,7 @@ static NSString *kTeamTableCellIdentifier = @"teamTableCellIdentifier";
         cell.teamView = [TeamView new];
     }
     
+    cell.teamView.headerClass = [TeamHeaderView class];
     [cell.teamView loadTeamView:self.objectsArray[indexPath.row]];
     
     [cell.contentCellView addSubview:cell.teamView];

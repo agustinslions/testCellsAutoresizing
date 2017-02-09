@@ -20,7 +20,11 @@
      */
     
     if (!self.headerView) {
-        self.headerView = (TeamHeaderView *)[[NSBundle mainBundle] loadNibNamed:@"TeamHeaderView" owner:nil options:nil][0];
+        //self.headerView = (TeamHeaderView *)[[NSBundle mainBundle] loadNibNamed:@"TeamHeaderView" owner:nil options:nil][0];
+        
+        if ([[self.headerClass class] respondsToSelector:@selector(initClassFromNib)]) {
+            self.headerView = [self.headerClass initClassFromNib];
+        }
     }
     
     [(TeamHeaderView *)self.headerView setTeamHeader:team];

@@ -11,6 +11,8 @@
 
 @interface TeamView : ContentView
 
+@property (nonatomic, assign) Class headerClass;
+
 - (void)loadTeamView:(Team *)team;
 
 @end
